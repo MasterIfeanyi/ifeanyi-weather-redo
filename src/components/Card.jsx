@@ -16,14 +16,14 @@ const Card = ({ city, setCity, result, getWeather}) => {
 
     
 
-    const textStyle = {
-        color: `white`,
-        fontSize: `1rem`,
-        display: `inline-flex`,
-        alignItems: `center`,
-        justifyContent: `center`,
-        fontWeight: `500`
-    }
+    // const textStyle = {
+    //     color: `white`,
+    //     fontSize: `1rem`,
+    //     display: `inline-flex`,
+    //     alignItems: `center`,
+    //     justifyContent: `center`,
+    //     fontWeight: `500`
+    // }
 
     return (
         <div className="container">
