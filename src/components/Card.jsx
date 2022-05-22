@@ -41,7 +41,7 @@ const Card = ({ city, setCity, result, getWeather}) => {
                             <>
                                 <div className="weather loading">
                                     <h3 className="city">Weather in {result.name}</h3>
-                                    <h1 className="temp" style={textStyle}>{Math.round(result.main.temp)}°C</h1>
+                                    <div className="temp"><label htmlFor="" className="label">Temperature:</label> {Math.round(result.main.temp)}°C</div>
                                     <div className="d-flex">
 
                                         <img src={`https://openweathermap.org/img/wn/${result.weather[0].icon}.png`} alt="" className="icon" />
