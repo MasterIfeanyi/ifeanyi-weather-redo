@@ -32,7 +32,7 @@ const Card = ({ city, setCity, result, getWeather}) => {
                 <div className="col-lg-6">
                     <div className="cardStyle">
                         <form onSubmit={handleSubmit} className="row">
-                            <div className="form-group d-flex mb-2">
+                            <div className="form-group col-12 d-flex mb-2">
                                 <input placeholder="search for a city" value={city} onChange={(e) => setCity(e.target.value)} type="text" className="form-control search-bar me-2" />
                                 <button className='btn btn-primary' type="submit">
                                     <FaSearch />
